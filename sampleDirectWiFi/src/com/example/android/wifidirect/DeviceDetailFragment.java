@@ -223,7 +223,7 @@ public class DeviceDetailFragment extends Fragment implements ConnectionInfoList
                 ServerSocket serverSocket = new ServerSocket(8988);
                 Log.d(WiFiDirectActivity.TAG, "Server: Socket opened");
                 //testing git commit
-                System.out.println("Testing Git");
+                System.out.println("Testing Git Push");
                 Socket client = serverSocket.accept();
                 Log.d(WiFiDirectActivity.TAG, "Server: connection done");
                 final File f = new File(Environment.getExternalStorageDirectory() + "/"
