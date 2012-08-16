@@ -61,6 +61,7 @@ public class WiFiDirectActivity extends Activity implements ChannelListener, Dev
      */
     public void setIsWifiP2pEnabled(boolean isWifiP2pEnabled) {
         this.isWifiP2pEnabled = isWifiP2pEnabled;
+        System.out.println("Inside setIsWifiP2pEnabled");
     }
 
     @Override
